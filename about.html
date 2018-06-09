@@ -1,0 +1,108 @@
+<!DOCTYPE html PUBLIC="-//W3C//DTD XHTML 1.0 transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+  	<title>PURVIL JAIN</title>
+  	<meta charset="UTF-8" >
+	<link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css" media="screen,projection">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="first.css">
+<link rel="icon" href="images/pizza.ico" type="image/x-icon">
+<body>
+  <div class="spinner-wrapper">
+<div class="spinner">
+  <div class="dot1"></div>
+  <div class="dot2"></div></div>
+</div>
+<br>
+        <a href="#"  class="scrollToTop" ><i class="material-icons">keyboard_arrow_up</i></a>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" id="appear">&times;</a>
+  <a href="index.html">HOME</a>
+<a href="about.html">ABOUT US</a>
+  <a href="about.html">INTERESTS</a>
+  <a href="index.html#here">CONTACT US</a>
+</div>
+<!-- Use any element to open the sidenav
+
+background-image: url('images/back2.jpg');
+background-repeat:no-repeat;
+background-size: 100% 80%; -->
+
+<div id="main">
+  <span onclick="openNav()" id="disappear"><a class="waves-effect waves-light btn-floating lighten-4 z-depth-3 "><i class="material-icons">menu</i></a></span>
+
+  <div class="right">
+
+    <button class="button waves-effect waves-light z-depth-3 tooltipped" data-position="bottom" data-delay="50" data-tooltip="Avail excting offers!" id="shadow"><span>Log In </span></button>
+  </div><br>
+    <div class="row">
+         <div class="card">
+           <div class="col s12 m6">
+           <div class="card-image">
+             <img src="images/IMG_20170111_101954.jpg"  width="400px" class="materialboxed">
+             <span class="card-title">PURVIL JAIN</span>
+             <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+           </div>
+           <div class="card-content">
+             <p>Purvil Jain is the founder of this website and intends to deliver food free of cost.
+             Purvil is a computer engineering student at D. J. Sanghvi College of Engineering, Mumbai - 400058.</p>
+           </div>
+           <div class="card-action">
+             <a href="#">Learn more</a>
+           </div>
+         </div>
+       </div>
+       <div class="card">
+          <div class="col s12 m6">
+              <div class="card , card-panel hoverable"">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="images/Magnuscarlsen.jpg" alt="chess">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">Interests<i class="material-icons right">more_vert</i></span>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4">Interests<i class="material-icons right">close</i></span>
+                  <p>I love playing CHESS, my favourite player is GM Magnus Carlsen.
+                    Carslen was the simultaneous world champion of standard chess, rapid chess, and blitz chess
+                    and is the highest-rated player of all time.</p>
+                </div>
+              </div>
+      </div>
+
+</div>
+
+</div>
+
+<script type="text/javascript">
+/* Set the width of the side navigation to 250px and the left margin of the page content to 250px and add a black background color to body */
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+/* Set the width of the side navigation to 0 and the left margin of the page content to 0, and the background color of body to white */
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft = "0";
+    document.body.style.backgroundColor = "#c9e09d";
+}
+</script>
+
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+  <script type="text/javascript" src="external.js"></script>
+  <script>
+  $(document).ready(function(){
+    $(".button-collapse").sideNav();
+   $('.collapsible').collapsible();
+    $('.slider').slider();
+    $('mobile-demo').toggle();
+      });
+
+</body>
+</html>

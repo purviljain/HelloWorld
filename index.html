@@ -1,0 +1,249 @@
+<!DOCTYPE html PUBLIC="-//W3C//DTD XHTML 1.0 transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+  	<title>PURVIL JAIN</title>
+    <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css" media="screen,projection">
+  	<meta charset="UTF-8" >
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="first.css">
+  <link rel="stylesheet" type="text/css" href="animate.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="icon" href="images/pizza.ico" type="image/x-icon">
+</head>
+<body >
+  <div class="spinner-wrapper">
+<div class="spinner">
+  <div class="dot1"></div>
+  <div class="dot2"></div></div>
+</div>
+<br>
+
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" id="appear">&times;</a>
+  <a href="index.html">HOME</a>
+<a href="about.html">ABOUT US</a>
+  <a href="about.html">INTERESTS</a>
+  <a href="#here">CONTACT US</a>
+</div>
+
+<!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+<!-- Use any element to open the sidenav -->
+<div id="main">
+
+  <span onclick="openNav()" id="disappear" style="display:none;"><a class="waves-effect waves-light btn-floating lighten-4 z-depth-3 " ><i class="material-icons" >menu</i></a></span>
+
+<div class="right">
+<button id="shadow" style="display:none;" class="button waves-effect waves-light z-depth-3 tooltipped" data-position="bottom" data-delay="50" data-tooltip="Avail excting offers!"><span >Log In </span></button>
+</div>
+<br>
+
+    <!--
+    <button` class="btn">read more</button>
+<div class="collection container">
+    <a href="#!" class="collection-item , center-align">Hi I am Purvil</a><br>
+    <a href="#!" class="collection-item , center-align">Second Year student Computer Engineering</a>
+  </div>
+--><br>
+<div class="right">
+  <a class="waves-effect waves-light btn-large z-depth-3 tooltipped" data-position="left" data-delay="50" data-tooltip="View items in your cart"><i class="material-icons">add_shopping_cart</i>YOUR CART</a>
+</div>
+
+<div class="container a" >
+  <h3>Order food online</h3>
+  <b>From the best restaurants delivering to your doorstep!</b>
+  <br><!--enter your delivery location<a href="" ><i class="material-icons ">edit_location</i></a>-->
+  <input type="text" placeholder="Enter delivery location here...">
+  <button type="button" class="btn waves-effect waves-green white black-text z-depth-3 tooltipped" data-position="bottom" data-delay="50" data-tooltip="Save time!"><b>Book a table<b></button>
+</div>
+<br>
+
+
+<div class="slideshow-container">
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="images/mcdonalds.png" style="width:100%">
+    <div class="text">Burgers!</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="images/subway.jpg" style="width:100%">
+    <div class="text">Sandwiches!</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="images/chinese.jpg" style="width:100%">
+    <div class="text">Chinese!</div>
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+
+
+
+
+<div class=" container a">
+  <p class="a" ><h4>GET FLAT 20% DISCOUNT ON YOUR FIRST ORDER!</h4></p>
+  <button  class="waves-effect waves-ripple btn white black-text z-depth-4 tooltipped" data-position="bottom" data-delay="50" data-tooltip="New User?"><b>REGISTER NOW!</b></button>
+</div>
+<br><br>
+<nav>
+  <div class="nav-wrapper">
+    <form >
+      <div class="input-field">
+    <input id="search" type="search" placeholder="Search for restaurants, dishes and cuisines!" required>
+    <label class="label-icon" for="search"><i class="material-icons ">search</i></label>
+    <i class="material-icons ">close</i>
+  </div>
+    </form>
+  </div>
+</nav>
+<br>
+ <div class="row">
+        <div class="col s8 m4">
+          <div class="card">
+            <div class="card-image">
+              <a href="#"><img src="images/pizzaonline.jpg" alt="pizza" class="materialboxed"></a>
+
+            </div>
+            <div class="card-content z-depth-3">
+              <p><button class="waves-effect waves-light btn tooltipped" data-position="bottom" data-delay="50" data-tooltip="Min. 15% off">Order pizza!</button></p>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="col s8 m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="images/burger.jpg" alt="burgers" class="materialboxed" >
+
+            </div>
+            <div class="card-content z-depth-3">
+              <p><button class="waves-effect waves-light btn tooltipped" data-position="bottom" data-delay="50" data-tooltip="Min. 10% off">Order Burgers!</button></p>
+            </div>
+
+          </div>
+        </div>
+
+      <div class="col s8 m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="images/sandwich.jpg" alt="sandwich" class="materialboxed">
+
+            </div>
+            <div class="card-content z-depth-3">
+              <p><button class="waves-effect waves-light btn tooltipped" data-position="bottom" data-delay="50" data-tooltip="Min. 5% off">Order Sandwiches!</button></p>
+            </div>
+
+          </div>
+        </div>
+</div>
+<hr/>
+<div class="container1">
+<div class="" id="here">
+  <h4>Contact Us</h4>
+    <a href="https://www.linkedin.com/in/purvil-jain-56684714b/" class=" fa fa-linkedin" target="_blank"></a>
+<a href="https://www.facebook.com/purvil.jain" class=" fa fa-facebook" target="_blank"></a>
+  <a href="https://twitter.com/Purvil_Jain98" class=" fa fa-twitter" target="_blank"></a>
+</div>
+  <div class="a">
+    <br>
+      Email : jainpurvil98@gmail.com<br>
+      &copy; 2017 Copyright PURVIL JAIN
+      <div class="right">
+        <a href="#"  class="scrollToTop" ><i class="material-icons">keyboard_arrow_up</i></a>
+      </div>
+  </div>
+</div>
+</div>
+
+
+<script type="text/javascript">
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+
+/* Set the width of the side navigation to 250px and the left margin of the page content to 250px and add a black background color to body */
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+    document.body.style.backgroundColor = "#c9e09d";
+}
+
+/* Set the width of the side navigation to 0 and the left margin of the page content to 0, and the background color of body to white */
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft = "0";
+    document.body.style.backgroundColor = "#e8efb0";
+}
+
+$(document).ready(function(){
+
+    $(".button-collapse").sideNav();
+   $('.collapsible').collapsible();
+    $('.slider').slider();
+    $('mobile-demo').toggle();
+
+    //Check to see if the window is top if not then display button
+$(window).scroll(function(){
+  if ($(this).scrollTop() > 100) {
+    $('##scroll').fadeIn();
+    $('##scroll').fadeOut();
+  } else {
+  }
+});
+
+//Click event to scroll to top
+$('#scroll').click(function(){
+  $('html, body').animate({scrollTop : 0},800);
+  return false;
+});
+    });
+
+</script>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+  <script type="text/javascript" src="external.js"></script>
+
+
+
+
+</body>
+</html>
